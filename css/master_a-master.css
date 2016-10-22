@@ -1,0 +1,47 @@
+#u93
+{
+	background-color: #000000;
+	position: relative;
+	display: inline;
+	/*float: left;*/
+	overflow: hidden;
+}
+
+#u99,#u105,#u111,#u117
+{
+	background-color: transparent;
+	position: relative;
+	display: inline;
+/*	float: left;*/
+	overflow: hidden;
+}
+#u115-4
+{
+	background-color: transparent;
+
+	text-align: justify;
+	
+	color: #FFFFFF;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
